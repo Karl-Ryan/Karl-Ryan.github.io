@@ -228,13 +228,15 @@ height : auto;
 margin : 5px;
 background-color : #000000;
 color : #d2b48c;
+padding : 2px;
 }
 #container11 {
 width : auto;
 height : auto;
 margin : 5px;
-background-color : #7cfc00;
+background-color : #66cc00;
 float : left;
+padding : 2px;
 }
 #container12 {
 width : auto;
@@ -242,6 +244,7 @@ height : auto;
 margin : 5px;
 background-color : #d2b48c;
 float : right;
+padding : 2px;
 }
 #container13 {
 width : 1600px;
