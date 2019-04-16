@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>FORM </title>
+		<link href="CSS/style.css" rel="stylesheet" type="text/css">
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+  color: #269900;
+}
+
+.active {
+  background-color: #b88747;
+}
+</style>
+<body>
+			<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="origen_of_airsoft.html">Origen of AirSoft</a></li>
+<li><a href="site_map.html">Site Map</a></li>
+<li><a href="the_law_and_airsoft_in_ireland.html">Law and Airsoft</a></li>
+<li><a href="where_to_buy.html">Where to Buy</a></li>
+<li><a href="where_to_play.html">Where to Play</a></li>
+<li><a href="cqb_vs_outdoors.html">CQB vs Outdoors</a></li>
+<li><a href="weapon_types.html">Weapon types</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+<li><a class="active" href="form.html">Form</a></li>
+<li><a href="airsoft_in_action.html">Airsoft in action</a></li>
+		</ul>
+		</head>
+
+		<h1>Your input is appreciated</h1>
+
+		<p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+
+		<form id=“lab8form”>
+			<fieldset>
+			<legend><h2>Your information:</h2></legend>
+			<form action="showform.html" method="get" >
+			<p><label for = "First Name">
+			First Name: <input type="text" name="First Name" placeholder="First name" id = "First Name">
+			</label></p>
+			<p><label for = "last Name">
+			Last Name: <input type="text" name="last Name" placeholder="Last Name" id = "last Name">
+			</label></p>
+			<p><label for = "Email">
+			Email address: <input type="email" name="email" placeholder="Email" id = "Email"
+			autofocus>
+			</label></p>
+			<p><label for = "Phone Number">
+			Phone Number: <input type="text" name="country_code" pattern="[0-9]{3}" title="Three digget country code" style="width:28px;">  <input type="text" name="Number" pattern="[0-9]{7}" title="remaing digets">
+  			</label></p>
+			<br></fieldset>
+			<fieldset>
+			<legend><h2>Have you played Airsoft</h2></legend>
+			<select name="Have you played">
+			<option value="Yes" selected>YES, I'm an active Airsofter</option>
+			<option value="No" selected>No, I've never taken part in Airsoft</option>
+			</select>
+			</fieldset>
+			<fieldset>
+			<legend><h2>If Yes</h2></legend>
+			<p>Please tell us where you Played and what weapon(s) you used</p>
+			<form action="/action_page.php">
+			  <textarea name="message" rows="10" cols="30"> </textarea>
+			  <br>
+			</fieldset>
+
+			<fieldset>
+			<legend><h2>Contact me Via</h2></legend>
+			<p>
+			Please contact me by
+					<p><input type="radio" name="contact me" value="email"> Email</p>
+			        <p><input type="radio" name="contact me" value="facebook"> Facebook</p>
+			        <p><input type="radio" name="contact me" value="Twitter"> Twitter</p>
+					<div id="row2">
+					<p><input type="radio" name="contact me" value="post"> Post</p>
+			        <p><input type="radio" name="contact me" value="Phone"> Phone</p>
+			</p></fieldset>
+			<p>
+				<input type="submit" name="Submit" value="Submit" />
+				<input type="Reset" name="Reset" value="Reset" />
+			</p>
+		</form>
+			</body>
+		<nav id = "top">
+				<ul>
+					<li><a href="Airsoft_in_action.html">Back to Top</a></li>
+					<li><a href="site_map.html">Site Map</a></li>
+				</ul>
+			</nav id = "top">
+				<div id = "footer">
+					<footer> Copyright &copy; 2019<br>
+					Last updated April 2019</footer>
+				</div>
+</html>
